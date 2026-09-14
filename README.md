@@ -104,15 +104,15 @@
 <table>
   <tr>
     <td width="50%">
-      <h3 align="center">💻 Z-Coder</h3>
-      <p align="center"><i>Competitive Programming Platform & Online Compiler</i></p>
+      <h3 align="center">💻 Z-Coder (Distributed Micro-Judge Engine)</h3>
+      <p align="center"><i>High-Throughput Async Code Execution & Socratic AI Evaluation Platform</i></p>
       <ul>
-        <li>Full-stack coding platform hosting <b>50+ contests</b> with problem bookmarking & discussion forums.</li>
-        <li>Online code execution engine delivering output with <b>sub-second latency</b>.</li>
-        <li>Optimized REST APIs in Node.js & MongoDB, cutting backend latency by <b>25%</b>.</li>
-        <li>Live contest synchronization via Codeforces API integration.</li>
+        <li>Engineered an <b>asynchronous micro-judge architecture</b> with throttled worker pools and WebSockets, cutting execution latency by <b>30%</b>.</li>
+        <li>Built a <b>secure sandbox runner</b> featuring pre-flight AST security scanning (RCE defense), process-tree isolation, and 512KB OOM prevention.</li>
+        <li>Architected a <b>LeetCode-style verdict pipeline</b> supporting hidden testcases, strict timeouts, and normalized multi-verdict evaluation (AC, TLE, WA, CE, RE, SV).</li>
+        <li>Integrated an <b>AI Big-O asymptotic complexity analyzer</b>, in-memory caching, and <b>Prometheus observability</b> for real-time queue metrics.</li>
       </ul>
-      <p align="center"><code>React</code> • <code>Redux</code> • <code>Node.js</code> • <code>MongoDB</code> • <code>Tailwind</code></p>
+      <p align="center"><code>React</code> • <code>Node.js</code> • <code>WebSockets</code> • <code>Prometheus</code> • <code>Sandbox Security</code></p>
     </td>
     <td width="50%">
       <h3 align="center">⚡ Service Foul Detection</h3>
