@@ -128,14 +128,15 @@
   </tr>
   <tr>
     <td width="50%">
-      <h3 align="center">🎵 MusiFEX Audio Classifier</h3>
-      <p align="center"><i>ML Pipeline for Audio Feature Extraction & Classification</i></p>
+      <h3 align="center">🗄️ LSM-Tree Storage Engine</h3>
+      <p align="center"><i>High-Performance Key-Value Store (RocksDB/LevelDB Inspired)</i></p>
       <ul>
-        <li>Automated pipeline processing <b>1000+ tracks</b> extracting MFCCs, chroma, and spectral contrast using Librosa.</li>
-        <li>Benchmarked KNN, SVM, Logistic Regression, and Naive Bayes models.</li>
-        <li>Ensemble learning boosted classification accuracy to <b>89%</b>.</li>
+        <li>Architected a production-grade <b>LSM-Tree storage engine</b> in modern <b>C++</b> with zero external dependencies.</li>
+        <li>Implemented append-only <b>Write-Ahead Log (WAL)</b> with CRC32 verification and automatic crash recovery.</li>
+        <li>Built in-memory <b>MemTable (SkipList)</b>, block-based <b>SSTables</b> (4KB pages), and <b>MurmurHash3 Bloom Filters</b> (<1% FP rate).</li>
+        <li>Engineered multi-way merge <b>leveled compaction</b>, manifest state management, and interactive CLI REPL.</li>
       </ul>
-      <p align="center"><code>Python</code> • <code>Scikit-learn</code> • <code>Librosa</code> • <code>Ensemble ML</code></p>
+      <p align="center"><code>Modern C++</code> • <code>Storage Engines</code> • <code>Compaction</code> • <code>SkipList</code> • <code>Bloom Filter</code></p>
     </td>
     <td width="50%">
       <h3 align="center">📋 Complaint-Portal Website</h3>
